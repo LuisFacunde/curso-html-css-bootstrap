@@ -4,7 +4,7 @@
 
 .nav-top {
     height: 63px; 
-    background-color: white !important; 
+    background-color: white !important;
     border-top:0.5px solid #dbdbdb; 
     border-bottom:1px solid #dbdbdb;
 }
@@ -14,18 +14,17 @@
     padding-right: 25% !important;
 }
 
-@media screen and (max-width: 1605px) {
-    .nav-container {
-        padding-left: 20% !important; 
-        padding-right: 20% !important;
-    }
-  }
+.form-control {
+    border-radius: .15rem !important;
+    padding: 0% !important; 
+    background-color: #fafafa !important; 
+    text-align: center; 
+    font-size: 15px !important;
+}
 
-@media screen and (max-width: 992px) {
-    .nav-container {
-        padding-left: 5% !important; 
-        padding-right: 5% !important;
-    }
+.icons {
+    padding: 4%; 
+    font-size: 25px;
 }
 
 .img-nav {
@@ -34,7 +33,7 @@
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%; 
     max-width:30px; 
-    max-height:25px;
+    max-height:30px;
 }
 
 .img-profile {
@@ -42,7 +41,7 @@
     -o-border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%; 
-    max-width:200px; 
+    max-width:2000px; 
     max-height:150px;
 }
 
@@ -50,16 +49,34 @@
     font-weight: 300; font-size: 28px;
 }
 
-.name {
-    font-size: 16px; display: inline; font-weight: 600 !important;
+.button-edit {
+    color: black !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-color: #dae1e7 !important;
+}
+
+.btn {
+    padding: .100rem .50rem !important;
 }
 
 .profile-datas {
     font-size: 16px;
 }
 
+.name {
+    font-size: 16px; display: inline; font-weight: 600 !important;
+}
+
 .profile-desc {
     font-size: 16px; 
+    margin-bottom: 0;
+}
+
+.destaques {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .nav-feed {
@@ -90,6 +107,9 @@
     font-weight: 600;
 }
 
+.col-3 {
+    padding-top: 50px;
+}
 
 .card {
     border: 0px solid rgba(0,0,0,.125) !important;
@@ -101,32 +121,16 @@
     border-top-right-radius: 0rem !important;
 }
 
-.stories{
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-}
+@media screen and (max-width: 1605px) {
+    .nav-container {
+        padding-left: 20% !important; 
+        padding-right: 20% !important;
+    }
+  }
 
-.form-control {
-    border-radius: .15rem !important;
-    padding: 0% !important; 
-    background-color: #fafafa !important; 
-    text-align: center; 
-    font-size: 15px !important;
-}
-
-.icons {
-    padding: 4%; 
-    font-size: 25px;
-}
-
-.button-edit {
-    color: black !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    border-color: #dae1e7 !important;
-}
-
-.btn {
-    padding: .100rem .50rem !important;
+@media screen and (max-width: 992px) {
+    .nav-container {
+        padding-left: 5% !important; 
+        padding-right: 5% !important;
+    }
 }
